@@ -3,19 +3,16 @@ package main
 
 import "fmt"
 
-func is_lower(n int) bool {
+func isLower(n int) bool {
 	if n >= 97 && n < 123 {
 		return true
-	} else {
-		return false
 	}
+	return false
 }
-
-
 
 func main() {
 	var char int = 100
 
-	res := is_lower(char)
+	res := isLower(char)
 	fmt.Println(res)
 }
