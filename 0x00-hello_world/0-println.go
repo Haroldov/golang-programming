@@ -1,4 +1,4 @@
-//Main package: Entry point
+/*main package: entry point*/
 package main
 
 import "fmt"
