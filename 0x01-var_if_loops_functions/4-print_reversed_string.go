@@ -5,7 +5,7 @@ import "fmt"
 
 func printReverse(str string) {
 	defer fmt.Print("\n")
-	for _, char := range(str) {
+	for _, char := range str {
 		defer fmt.Printf("%c", char)
 	}
 }
