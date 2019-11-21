@@ -1,12 +1,12 @@
-# Exercises for getting deep understanding of golang
+## Exercises for getting deep understanding of golang
 
-# To run...
+## To run...
 
 ```sh
 go run file.go
 ```
 
-# Check linters
+## Check linters
 
 ```sh
 golangci-lint run file.go
